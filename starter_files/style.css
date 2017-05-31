@@ -1,0 +1,165 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+/*  font-family: Helvetica, Arial, sans-serif;
+  }
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  font-size: 20px;
+  }
+p, h1, h2, h3, td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  line-height: 2
+}
+ul, li{
+  margin-left: 20px;
+}
+header {
+  }
+#logo {
+  margin-top: 20px;
+  float: left;
+  }
+#site_header {
+  background-color: #ff8523;
+  padding-bottom: 20px;
+  }
+.main_navigation {
+  width: 50%;
+  display: flex;
+  clear: both;
+}
+.main_navigation a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  margin: 5px;
+  }
+input {
+  line-height: 2;
+  width: 30%;
+}
+textarea {
+  width: 100%;
+}
+body {
+  background-image: url("img/bg.jpg");
+  background-repeat: repeat;
+}
+.pageframe {
+  margin: 20px 20%;
+  background: white;
+  border: 2px solid #FFD24A;
+  }
+#page_content {
+  margin: 0;
+  padding: 0;
+  border: 0
+  }
+header {
+  text-decoration: none;
+  }
+h2 {
+  color: #1fabe5;
+  }
+ul {
+  font-weight: bold;
+}
+h3 {
+  color: #1fabe5;
+  }
+p {
+  }
+/*.tablecontent {
+  border-style: solid;
+  border: #dddddd;
+  border-top: 1px;
+  border-bottom: 1px;
+  }*/
+td {
+    border: 2px solid #1fabe5;
+    }
+/*table header*/
+thead tr td {background-color: #1fabe5;
+  color: white;
+  border: 2px solid #046c97;
+  }
+form {
+  background-color: #eee;
+  }
+.name {
+  background-color: #ff8523;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  }
+.submit_container {
+  padding-left: 10px;
+  margin-left: 20px;
+}
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+ line-height: 4;
+  }
+table {
+  margin: auto;
+}
+table img {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+form {
+  line-height: 3;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.name {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  }
+.city_container {
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.bio_container {
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#city:after {
+  content: '<>';
+  font: 17px "Consolas", monospace;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  }
